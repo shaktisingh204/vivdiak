@@ -9,7 +9,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "👋 Welcome to VivBot!\n\n"
         "Get real-time updates about Vivdisk and VDX Player launches.\n"
-        "Type /help to see what I can do!"
+        "Type to see what I can do!"
     )
 
 # Run the bot
